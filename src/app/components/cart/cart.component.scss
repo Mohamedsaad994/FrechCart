@@ -1,0 +1,36 @@
+.btns{
+  width:15%
+}
+.info{
+  width:85%
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .btns{
+    width:25%
+  }
+  .info{
+    width:75%;
+    padding:25px 0
+  }
+  .image{
+    width:50%;
+    margin:auto;
+    margin-top:30px
+  }
+}
+
+@media (max-width: 575.98px) {
+  .btns{
+    width:30%
+  }
+  .info{
+    width:70%;
+    padding:25px 0
+  }
+  .image{
+    width:50%;
+    margin:auto;
+    margin-top:30px
+  }
+}
+

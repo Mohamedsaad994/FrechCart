@@ -1,0 +1,48 @@
+.product{
+  overflow: hidden;
+  position: relative;
+  .main-btn{
+    transform: translatey(150%);
+    opacity:0;
+    transition:0.5s
+  }
+  &:hover{
+    .main-btn{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+.heart{
+  position: absolute;
+  top:10px;
+  right:10px;
+  font-size:20px
+}
+
+@media (max-width: 1199.98px) {
+  .static-slider{
+    display:none
+  }
+  .dinamic-slider{
+    width:100%
+  }
+}
+
+.dinamic-slider img{
+  background-size: cover;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section{
+    width:75%;
+    margin:auto
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section{
+    width:60%;
+    margin:auto
+  }
+}

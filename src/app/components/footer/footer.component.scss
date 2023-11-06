@@ -1,0 +1,22 @@
+:host{
+  margin-top:auto
+}
+
+.pay-img{
+  width:40px;
+  display:block
+}
+.store-img{
+  width:100px;
+  display:block
+}
+hr{
+  color:#ccc
+}
+
+@media (max-width: 767.98px) {
+  .footer{
+    flex-direction: column;
+    gap:20px
+  }
+}

@@ -1,0 +1,10 @@
+<section *ngIf="categoryData._id" class="w-75 mx-auto bg-main-light rounded shadow p-3 my-5">
+  <div class="row align-items-center">
+    <div class="col-md-3">
+      <img [src]="categoryData.image" class="w-100" [alt]="categoryData.name">
+    </div>
+    <div class="col-md-9">
+      <h3> {{categoryData.name}} </h3>
+    </div>
+  </div>
+</section>

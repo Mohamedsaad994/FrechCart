@@ -1,0 +1,29 @@
+.product{
+  overflow: hidden;
+
+  .main-btn{
+    transform: translatey(150%);
+    opacity:0;
+    transition:0.5s
+  }
+  &:hover{
+    .main-btn{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section{
+    width:75%;
+    margin:auto
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section{
+    width:60%;
+    margin:auto
+  }
+}
